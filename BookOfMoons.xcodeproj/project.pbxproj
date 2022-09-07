@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C27E24528C5D1C00022B69C /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C27E24428C5D1C00022B69C /* SettingView.swift */; };
+		0C27E24728C5D2340022B69C /* SettingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C27E24628C5D2340022B69C /* SettingStore.swift */; };
 		0C687417287FE7C10007278D /* BookOfMoonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C687416287FE7C10007278D /* BookOfMoonsApp.swift */; };
 		0C687419287FE7C10007278D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C687418287FE7C10007278D /* ContentView.swift */; };
 		0C68741B287FE7C40007278D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C68741A287FE7C40007278D /* Assets.xcassets */; };
 		0C68741E287FE7C40007278D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C68741D287FE7C40007278D /* Preview Assets.xcassets */; };
+		0CA34A7428AB7E7100ECC68B /* NewArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA34A7328AB7E7000ECC68B /* NewArticle.swift */; };
+		0CAED3A028A37B130085EDDC /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAED39F28A37B130085EDDC /* ArticleDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C27E24428C5D1C00022B69C /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		0C27E24628C5D2340022B69C /* SettingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingStore.swift; sourceTree = "<group>"; };
 		0C687413287FE7C10007278D /* BookOfMoons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookOfMoons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C687416287FE7C10007278D /* BookOfMoonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookOfMoonsApp.swift; sourceTree = "<group>"; };
 		0C687418287FE7C10007278D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0C68741A287FE7C40007278D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C68741D287FE7C40007278D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0CA34A7328AB7E7000ECC68B /* NewArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewArticle.swift; sourceTree = "<group>"; };
+		0CAED39F28A37B130085EDDC /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				0C687416287FE7C10007278D /* BookOfMoonsApp.swift */,
 				0C687418287FE7C10007278D /* ContentView.swift */,
+				0CAED39F28A37B130085EDDC /* ArticleDetailView.swift */,
+				0CA34A7328AB7E7000ECC68B /* NewArticle.swift */,
 				0C68741A287FE7C40007278D /* Assets.xcassets */,
 				0C68741C287FE7C40007278D /* Preview Content */,
+				0C27E24428C5D1C00022B69C /* SettingView.swift */,
+				0C27E24628C5D2340022B69C /* SettingStore.swift */,
 			);
 			path = BookOfMoons;
 			sourceTree = "<group>";
@@ -138,6 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C687419287FE7C10007278D /* ContentView.swift in Sources */,
+				0C27E24528C5D1C00022B69C /* SettingView.swift in Sources */,
+				0CA34A7428AB7E7100ECC68B /* NewArticle.swift in Sources */,
+				0CAED3A028A37B130085EDDC /* ArticleDetailView.swift in Sources */,
+				0C27E24728C5D2340022B69C /* SettingStore.swift in Sources */,
 				0C687417287FE7C10007278D /* BookOfMoonsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BookOfMoons/Preview Content\"";
+				DEVELOPMENT_TEAM = 4CYH4BXVM7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BookOfMoons/Preview Content\"";
+				DEVELOPMENT_TEAM = 4CYH4BXVM7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
